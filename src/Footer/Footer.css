@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.h4-pointer{
+    cursor: pointer;
+}
+
+
+.footer-content{
+    font-family: 'Patrick Hand SC', cursive;
+    background: rgb(24, 24, 23);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    padding: 100px 150px;
+    height: 300px;
+
+}
+h4{
+    padding: 10px 0;
+}
+
+
+.footer-item2,.color1,.color{
+color: #fff;
+
+}
+
+.icon-footer ,.icon-footer1,.icon-footer2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 3px;
+
+}
+
+.icon-footer{
+    color: coral;
+}
+
+.icon-footer1{
+    color: darkgreen;
+}
+
+.icon-footer2{
+    color: darkmagenta;
+}
+
+.end-footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    bottom: 0;
+}
+.color{
+    background: none;
+    padding: 20px;
+}
+
+@media  screen and (max-width:768px){
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px 10px;
+}
+.footer-item2{
+    display: flex;
+    justify-content: center;
+}
+.h4-pointer{
+    padding: 20px;
+    font-size: 22px;
+}
+.color1{
+    font-size: 23px;
+    color: white;
+}
+}

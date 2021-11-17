@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --margin-l-size:270px;
+    --margin-r-size:100px;
+
+}
+
+ 
+.Impressum{
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: var(--margin-l-size);
+    width: 100%;
+    line-height: 40px;
+    height: 600px;
+    color: #fff;
+    background-color: rgb(24, 24, 23);
+}
+
+.h1-Impressum{
+    font-family: 'Oregano', cursive;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+}
+.p-Impressum{
+    font-family: 'Patrick Hand SC', cursive;
+letter-spacing: 1.5px;
+font-size: 20px;
+}
+
+@media  screen and (max-width:768px) {
+    .h1-Impressum{
+        padding: 0;
+ 
+    }
+    .Impressum{
+        padding: 20px 30px;
+        text-align: justify;
+    }
+    .p-Impressum{
+        padding: 10px;
+    }
+}

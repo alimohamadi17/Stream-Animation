@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.About-content{
+    text-align: justify;
+        background-color: rgb(24, 24, 23);
+        padding: 100px;
+        color: #ffffff;
+        font-size: 20px;
+        letter-spacing: 1.2px;
+        padding: 50px 180px;
+    
+}
+
+.about-title{
+    font-family: 'Oregano', cursive;
+    padding: 10px 90px;
+
+}
+
+.about-p{
+    padding: 30px 100px ;
+    font-size: 22px;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.img-about{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media  screen and (max-width:768px){
+    .About-content{
+        margin: 0;
+        padding: 0;
+    }
+    .about-title{
+        margin: 0;
+        padding: 10px;
+    }
+    .about-p{
+        padding: 20px;
+    }
+    .About-content{
+        padding: 10px;
+    }
+   
+}
+
+

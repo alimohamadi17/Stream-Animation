@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+:root{
+    --margin-l-size:270px;
+    --margin-r-size:100px;
+
+}
+
+h1.Privacy{
+    padding: 50px 0px;
+    font-family: 'Oregano', cursive;
+letter-spacing: 1.5px;
+}
+
+.PrivacyPolicy{
+    padding-left: var(--margin-l-size);
+    padding-right: var(--margin-r-size);
+    text-align: justify;
+    width: 100%;
+    line-height: 30px;
+    color: #fff;
+    background-color: rgb(24, 24, 23);
+}
+
+.P-Privacy{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 22px;
+
+}
+
+@media  screen and (max-width:768px){
+    .PrivacyPolicy{
+        padding: 10px;
+    }
+    .PrivacyPolicy{
+        padding: 20px;
+    }
+    h1.Privacy{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .P-Privacy{
+        padding: 10px;
+    }
+}

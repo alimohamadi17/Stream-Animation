@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+:root{
+    --size:30px;
+    --margin-size:135px;
+
+}
+
+
+.work{
+    background-color: black;
+    padding-top:20px;
+    padding-left:  var(--margin-size);
+padding-right: var(--margin-size);
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+
+.card{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+flex-wrap: wrap;
+padding-left: var(--margin-size);
+padding-top: 40px;
+
+}
+
+.card-item{
+
+width: 400px;
+height: 500px;
+font-size: 20px;
+}
+
+.img-1{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+h3.p-content{
+    font-family: 'Patrick Hand SC', cursive;
+
+}
+
+
+.w-content{
+    padding-top: 40px;
+
+    padding-left:  var(--margin-size);
+    font-family: 'Oregano', cursive;
+}
+
+.w-p-content{
+    padding-top: 40px;
+
+    padding-left:  var(--margin-size);
+
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: justify;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-video{
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 15px;
+ color: #ffffff;
+ background-color: white;
+ color: black;  
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+.icon-more{
+    font-size: 11px;
+    line-height: normal;
+    font-weight: 600;
+    color: white;
+background-color: blue;
+border-radius: 30px;
+line-height: 1;
+border: none;
+padding: 10px 10px;
+cursor: pointer;
+font-family: 'Kosugi Maru', cursive;
+text-transform: capitalize;
+
+}
+
+.option-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+@media  screen and (max-width:768px){
+    .w-content{
+        margin: 0;
+        padding: 10px;
+        font-size: 22px;
+    }
+    .w-p-content{
+        margin: 0;
+        padding: 10px;
+    }
+    .card{
+        padding: 10px;
+    }
+    .work{
+        padding: 10px;
+    }
+    
+}

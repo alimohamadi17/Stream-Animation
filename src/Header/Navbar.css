@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+.nav-toggle{
+    
+    margin-right: 80px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.paper{
+    font-family: 'Oregano' , cursive;
+}
+
+.icon{
+    color: #fff;
+    font-size: 48px;
+    margin-right: 20px;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+
+.workcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.work-page{
+  
+    background-color: rgb(24, 24, 23);
+    padding: 50px 100px 50px 220px;
+}
+
+
+
+.work-title{
+    font-family: 'Oregano' , cursive;
+    padding: 20px 10px;
+    color: #fff;
+
+}
+
+.body-work{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 20px  ;
+    text-align: justify;
+    letter-spacing: 1.3px;
+}
+
+
+.img-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+
+}
+.img-item{
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    padding: 1px;
+    
+}
+.golnar{ width: 500px;
+     height: 400px;
+       }
+       
+
+@media  screen and (max-width:768px){
+.Work-page-container{
+    margin: 0;
+    padding: 0;
+}
+    .workcontainer{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 10px;
+    }
+    .work-title{
+        margin: 0;
+     padding: 10px;  
+     font-size: 23px; 
+     width: 100%;
+    }
+    .body-work{
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+    }
+    .iframe{
+        width: 100%;
+        padding: 10px;
+    }
+    .img-work{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        
+    }
+    .work-page{
+        padding: 0;
+    }
+    .golnar{ width: 100%;
+        padding: 10px;
+          }
+}
