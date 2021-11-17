@@ -1,8 +1,8 @@
-import React from 'react'
-import { AiOutlineCloseCircle } from 'react-icons/ai'
+import React from 'react';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 import Image from '../asset/work/journey-through-the-darkness-1-1.jpg'
-import Image3 from '../asset/work/lovely-city-1-4.jpg'
-import Image4 from '../asset/work/my-dream-1-3.jpg'
+import Image3 from '../asset/work/lovely-city-1-4.jpg';
+import Image4 from '../asset/work/my-dream-1-3.jpg';
 import Image5 from '../asset/pageWork/annime/Annie-Manny-2-1.jpg'
 import Image19 from '../../src/asset/pageWork/golnar/Golnar-1.jpg'
 import Image20 from '../../src/asset/pageWork/three/Bird-and-Tree-1.jpg'
@@ -282,4 +282,4 @@ function Work() {
     )
 }
 
-export default Work
+export default Work;
